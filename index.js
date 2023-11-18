@@ -137,7 +137,7 @@ showMoreButton.addEventListener("click", function() {
 
                         watchlist.push(movieData);
                         localStorage.setItem("watchlist", JSON.stringify(watchlist));
-                        alert("Movie added to watchlist");
+                        addBtn.textContent = "Added ✅"; 
                     });
                     mainDiv.appendChild(filmDiv);
                 });

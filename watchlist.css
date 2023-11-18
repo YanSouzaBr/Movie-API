@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    background-image: url(icons/THJJRUhNlEc.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-size: cover;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+header h1 {
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 2.775rem; 
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.5em; 
+    letter-spacing: -1.926px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.75em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.remove-btn {
+    background-color: inherit;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -153px;
+    flex-direction: column;
+    margin-top: -40px;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.poster {
+    width: 99px;
+    height: 147.411px;
+}
+
+.film {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptions {
+    display: flex;
+    flex-direction:column;
+    padding-left: 20px;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.overview {
+    color: #6B7280;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+
+.options {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.nothing-here {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.nothing-here h1 {
+    color: #DFDDDD;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28.5px; 
+}
+
+.nothing-here h3 {
+    color: #363636;
+    text-align: center;
+    font-size: 0.75rem; 
+    line-height: 20px; 
+}
+
+@media (min-width: 468px) {
+    
+    .title-div {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        height: 150px;
+    }
+
+    .options {
+        margin: 10px;
+        justify-content: space-around;
+        flex-direction: row;
+
+    }
+
+    .overview,
+    .options {
+        max-width: 500px;
+    }
+    
+    .remove-btn {
+        width: 50px;
+        display: block;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 290px) {
+
+    .title-div h1 {
+        font-size: 30px;
+    }
+}
